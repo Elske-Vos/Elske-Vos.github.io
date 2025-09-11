@@ -1,9 +1,11 @@
+
+
 body {
   margin: 0;
   padding: 0;
 }
 
-
+/*menu*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +29,7 @@ ul li a {
 ul li a:hover {
   background-color: #16981d;
 }
-
+/*boven is menu*/
 
 span.test2 {
   writing-mode: vertical-rl;
