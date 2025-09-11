@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fff700;
+  background-color: #000000;
 }
 
 ul li {
@@ -18,14 +18,14 @@ ul li {
 
 ul li a {
   display: block;
-  color: rgb(8, 219, 40);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #cb3e3e;
+  background-color: #16981d;
 }
 
 /* h1 {
