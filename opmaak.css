@@ -35,7 +35,7 @@ ul li a:hover {
 /*pagina compressie*/
 .compressie {
   width: 26%;
-  border: 15px solid rgb(0, 0, 0);
+  border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
   padding: 2%;
@@ -43,7 +43,7 @@ ul li a:hover {
 }
 .soortencompressie {
   width: 26%;
-  border: 15px solid rgb(0, 0, 0);
+  border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
   padding: 2%;
@@ -51,7 +51,7 @@ ul li a:hover {
 }
 .bitmap {
   width: 26%;
-  border: 15px solid rgb(0, 0, 0);
+  border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
   padding: 2%;
