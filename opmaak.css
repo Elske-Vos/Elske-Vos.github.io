@@ -39,11 +39,11 @@ ul li a:hover {
   background-color: white;
   color: #000000;
   padding: 2%;
-  margin: 20px; 
+  margin: 24px; 
   float: left; 
 }
 .soortencompressie {
-  width: 26%;
+  width: 24%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
@@ -52,7 +52,7 @@ ul li a:hover {
   float: left; 
 }
 .bitmap {
-  width: 26%;
+  width: 24%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
