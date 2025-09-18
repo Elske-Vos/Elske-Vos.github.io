@@ -32,7 +32,15 @@ ul li a:hover {
   background-color: #cb6285;
 }
 /*boven is menu*/
-
+/*pagina compressie*/
+compressie {
+  width: 300px;
+  border: 15px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 20px;  
+}
 
 
  
