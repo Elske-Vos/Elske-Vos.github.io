@@ -1,6 +1,6 @@
 
 
-body {
+/* achtergrond*/body {
    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/53/9556248b4747950.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,9 +33,7 @@ ul li a:hover {
 }
 /*boven is menu*/
 
-span.test2 {
-  writing-mode: vertical-rl;
-}
+
 
  
 
