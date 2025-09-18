@@ -34,12 +34,12 @@ ul li a:hover {
 /*boven is menu*/
 /*pagina compressie*/
 .compressie {
-  width: 26%;
+  width: 24%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
   padding: 2%;
-  margin: 24px; 
+  margin: 20px; 
   float: left; 
 }
 .soortencompressie {
