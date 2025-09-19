@@ -9,13 +9,12 @@
     margin: 2rem;
   }
   #colorPicker {
-    width: 80%;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border: none;
     padding: 0;
     cursor: pointer;
   }
-
 </style>
 </head>
 <body>
@@ -43,7 +42,6 @@
 
   function updateColor() {
     const hex = colorPicker.value;
-    colorBox.style.backgroundColor = hex;
     rgbCode.textContent = hexToRgb(hex);
   }
 
