@@ -15,12 +15,7 @@
     padding: 0;
     cursor: pointer;
   }
-  .color-box {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #000;
-    margin-top: 1rem;
-  }
+
 </style>
 </head>
 <body>
@@ -31,13 +26,10 @@
 
 <input type="color" id="colorPicker" value="#ff0000">
 
-<div class="color-box" id="colorBox"></div>
-
 <p>RGB code: <span id="rgbCode">rgb(255, 0, 0)</span></p>
 
 <script>
   const colorPicker = document.getElementById('colorPicker');
-  const colorBox = document.getElementById('colorBox');
   const rgbCode = document.getElementById('rgbCode');
 
   function hexToRgb(hex) {
