@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<title>Kleurkiezer RGB code bekijken</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+  }
+  .color-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    margin-top: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<h2>Kleurkiezer - Bekijk RGB kleurcode</h2>
+
+<p>Kies een kleur en zie de bijbehorende RGB-code:</p>
+
+<input type="color" id="colorPicker" value="#ff0000">
+
+<div class="color-box" id="colorBox"></div>
+
+<p>RGB code: <span id="rgbCode">rgb(255, 0, 0)</span></p>
+
+<script>
+  const colorPicker = document.getElementById('colorPicker');
+  const colorBox = document.getElementById('colorBox');
+  const rgbCode = document.getElementById('rgbCode');
+
+  function hexToRgb(hex) {
+    hex = hex.replace(/^#/, '');
+    let bigint = parseInt(hex, 16);
+    let r = (bigint >> 16) & 255;
+    let g = (bigint >> 8) & 255;
+    let b = bigint & 255;
+    return `rgb(${r}, ${g}, ${b})`;
+  }
+
+  function updateColor() {
+    const hex = colorPicker.value;
+    colorBox.style.backgroundColor = hex;
+    rgbCode.textContent = hexToRgb(hex);
+  }
+
+  colorPicker.addEventListener('input', updateColor);
+
+  updateColor();
+</script>
+
+</body>
+</html> 
