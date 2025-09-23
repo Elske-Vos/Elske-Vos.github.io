@@ -73,7 +73,7 @@ ul li a:hover {
 
 /*pagina binair stelsel*/
 .binairstelseltekst {
-  width: 30%;
+  width: 20%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
@@ -82,7 +82,7 @@ ul li a:hover {
   float: left; }
 
 .stuktekstbinairstelsel { 
-  width: 30%;
+  width: 20%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
