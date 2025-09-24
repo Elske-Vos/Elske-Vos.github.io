@@ -43,7 +43,7 @@ ul li a:hover {
   float: left; 
 }
 .soortencompressie {
-  width: 24%;
+  height: 50%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
