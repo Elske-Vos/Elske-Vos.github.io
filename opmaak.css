@@ -48,7 +48,8 @@ ul li a:hover {
   background-color: white;
   color: #000000;
   padding: 2%;
-  margin: 20px; 
+  margin: 20px;
+  margin-right: 200px; 
   float: left; 
 }
 .bitmap {
