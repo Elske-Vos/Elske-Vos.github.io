@@ -61,6 +61,11 @@ ul li a:hover {
   margin: 20px; 
 }
 
+.afbeeldingbitmap {
+float: left;
+height: 50%;
+}
+
 /* pagina kleurmodellen*/
 .tekstkleurmodellen {
   width: 50%;
