@@ -39,7 +39,8 @@ ul li a:hover {
   background-color: white;
   color: #000000;
   padding: 2%;
-  margin: 20px; 
+  margin: 20px;
+  margin-bottom: 20px; 
   float: left; 
 }
 .soortencompressie {
