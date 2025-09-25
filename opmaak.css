@@ -62,7 +62,7 @@ ul li a:hover {
 }
 
 .afbeeldingbitmap {
-float: left;
+float: center;
 height: 50%;
 display: block;
 }
