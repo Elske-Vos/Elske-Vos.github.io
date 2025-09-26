@@ -95,6 +95,11 @@ display: block;
   padding: 2%;
   margin: 20px; 
   float: right; }
+
+  /*pagina binair stelsel*/
+  iframe {
+float: center;
+  }
  
 
 
