@@ -98,7 +98,12 @@ display: block;
 
   /*pagina binair stelsel*/
   iframe {
-float: center;
+    float: center;
+    width: 40%;
+  }
+  image {
+    float: center;
+    width: 40%;
   }
  
 
