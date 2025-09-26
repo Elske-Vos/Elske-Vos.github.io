@@ -97,11 +97,7 @@ display: block;
   float: right; }
 
   /*pagina binair stelsel*/
-  iframe {
-    float: center;
-    width: 40%;
-  }
-  image {
+  div .videoenafbeeldingbinairstelsel {
     float: center;
     width: 40%;
   }
