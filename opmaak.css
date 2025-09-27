@@ -100,11 +100,13 @@ display: block;
 }
 
   /*pagina binair stelsel*/
-  div .videoenafbeeldingbinairstelsel {
-    float: center;
-    width: 40%;
-  }
+img {
+  float: center;
+}
  
+iframe {
+  float: center;
+}
  /*Pagina ipos */
 .IPOS {
   width: 95%;
