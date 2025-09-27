@@ -2,7 +2,7 @@
 
 /* achtergrond*/
 body {
-   background-image: achtergrond.jpg;
+  background-image: url(afbeeldingen/achtergrond.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
