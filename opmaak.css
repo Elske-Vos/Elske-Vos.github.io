@@ -1,7 +1,8 @@
 
 
-/* achtergrond*/body {
-   background-image: url"https://s.tmimgcdn.com/scr/800x500/372800/abstracte-blauwe-achtergrond-met-gloeiend-wit-vectorbestand_372841-original.jpg"
+/* achtergrond*/
+body {
+   background-image: achtergrond.jpg;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
