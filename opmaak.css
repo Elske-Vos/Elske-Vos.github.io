@@ -103,7 +103,6 @@ display: block;
   float: right; 
 }
 
-  /*pagina binair stelsel*/
 img {
   float: center;
 }
@@ -126,7 +125,6 @@ img {
   color: #000000;
   padding: 2%;
   margin: 1%; 
-  margin-left: 4%;
   float: left;
 }
 .storage {
