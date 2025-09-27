@@ -71,6 +71,11 @@ height: 50%;
 display: block;
 }
 
+.afbeeldingencompressie {
+  width: 40%;
+  margin: 5%;
+}
+
 /* pagina kleurmodellen*/
 .tekstkleurmodellen {
   width: 50%;
