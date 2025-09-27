@@ -75,7 +75,8 @@ display: block;
   color: #000000;
   padding: 2%;
   margin: 20px; 
-  float: left; }
+  float: left; 
+}
 
 /*pagina binair stelsel*/
 .binairstelseltekst {
@@ -85,7 +86,8 @@ display: block;
   color: #000000;
   padding: 2%;
   margin: 20px; 
-  float: left; }
+  float: left; 
+}
 
 .stuktekstbinairstelsel { 
   width: 20%;
@@ -94,7 +96,8 @@ display: block;
   color: #000000;
   padding: 2%;
   margin: 20px; 
-  float: right; }
+  float: right; 
+}
 
   /*pagina binair stelsel*/
   div .videoenafbeeldingbinairstelsel {
@@ -104,14 +107,50 @@ display: block;
  
  /*Pagina ipos */
 .IPOS {
-  width: 23%;
+  width: 95%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
   padding: 2%;
   margin: 20px; 
-  float: left;
-
+  float: center;
 }
 
+.input {
+   width: 20%;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 3%; 
+  float: left;
+}
+.storage {
+   width: 20%;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 3%; 
+  float: left;
+}
 
+.processing {
+   width: 20%;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 3%; 
+  float: left;
+}
+
+.output {
+   width: 20%;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 3%; 
+  float: left;
+}
