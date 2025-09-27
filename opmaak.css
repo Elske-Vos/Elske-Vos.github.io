@@ -124,6 +124,7 @@ iframe {
 
 .input {
    width: 16%;
+   height: 32%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
@@ -133,6 +134,7 @@ iframe {
 }
 .storage {
    width: 16%;
+  height: 32%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
@@ -143,6 +145,7 @@ iframe {
 
 .processing {
    width: 16%;
+  height: 32%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
@@ -153,6 +156,7 @@ iframe {
 
 .output {
    width: 16%;
+  height: 32%;
   border: 5px solid rgb(0, 0, 0);
   background-color: white;
   color: #000000;
