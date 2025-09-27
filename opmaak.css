@@ -107,10 +107,7 @@ display: block;
 img {
   float: center;
 }
- 
-iframe {
-  float: center;
-}
+
  /*Pagina ipos */
 .IPOS {
   width: 85%;
@@ -164,3 +161,4 @@ iframe {
 .afbeeldingIPOS {
   float: center;
 }
+
