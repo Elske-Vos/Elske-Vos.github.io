@@ -7,6 +7,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+h1 {
+  color: white;
+}/*kleur voor pagina titel*/
 
 /*menu*/
 ul {
