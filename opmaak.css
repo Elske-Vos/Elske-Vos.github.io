@@ -157,6 +157,8 @@ img {
 }
 .afbeeldingIPOS {
   width: 95%;
-  float: center;
+  display: block;
+  margin: 0 auto;
 }
+
 
