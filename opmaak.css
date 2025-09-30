@@ -36,6 +36,18 @@ ul li a:hover {
   background-color: #cb6285;
 }
 /*boven is menu*/
+/*voorpagina*/
+.tekst1 {
+  width: 30%;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  color: #000000;
+  padding: 2%;
+  margin: 20px;
+  float: left; 
+}
+
+
 /*pagina compressie*/
 .compressie {
   width: 24%;
