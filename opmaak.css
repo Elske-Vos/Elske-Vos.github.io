@@ -175,10 +175,7 @@ img {
 footer {
 position: fixed;
 bottom: 0;
-background-color: black;
-color: white;
-border: 2px;
-border: white;
+background-color: rgb(255, 255, 255);
 text-align: center;
 width: 99%;
 }
