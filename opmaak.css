@@ -3,43 +3,43 @@
 /* achtergrond*/
 body {
   background-image: url(afbeeldingen/achtergrond.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-repeat: no-repeat; /*achtergrond maar 1 keer*/
+  background-attachment: fixed; /*achtergrond staat hetzelfde als je scrolt*/
+  background-size: cover; /* de achtergrond bedekt de hele pagina */
 }
 h1 {
   color: white;
-}/*kleur voor pagina titel*/
+}/*kleur voor titel van pagina*/
 
 /*menu*/
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000000;
+  list-style-type: none; /* er staat niks voor de items van het menu */
+  margin: 0; /* dit is de lege ruimte tussen het menu en iets anders */
+  padding: 0; /* dit is de ruimte tussen de letters en het einde van het menu blok */
+  overflow: hidden; /* als het menu te lang is om op het scherm te passen wordt het niet getoond */
+  background-color: #000000; /* de achtergrondkleur van het menubalkje*/
 }
 
 ul li {
-  float: left;
+  float: left; /* de items gaan naar links in het menubalkje*/
 }
 
 ul li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
+  display: block; /* er zit een blok om het menu heen*/
+  color: rgb(255, 255, 255); /* tektskleur is wit*/
+  text-align: center; 
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #cb6285;
+  background-color: #cb6285; /* als je over het menu gaat met je muis wordt het een andere kleur*/
 }
 /*boven is menu*/
 /*voorpagina*/
 .tekst1 {
-  width: 45%;
-  border: 5px solid rgb(0, 0, 0);
+  width: 45%; /* het tekstblok is 45% van de pagina*/
+  border: 5px solid rgb(0, 0, 0); /* de rand om het blok is 5px en zwart*/
   background-color: white;
   color: #000000;
   padding: 2%;
@@ -122,12 +122,12 @@ img {
 }
 
 .binary-bonanza {
- a:link, a:visited {
+ a:link, a:visited { /* dit staat voor dat de link zo werkt als die bezocht is en als die niet bezocht is */
   background-color: #000000;
   color: white;
   border: #000000;
   padding: 14px 25px;
-  text-align: center;
+  text-align: center; 
   text-decoration: none;
   display: block;
   width: 25%;
@@ -192,7 +192,7 @@ img {
 /*dit is voor de footer*/ 
 footer {
 position: fixed;
-bottom: 0;
+bottom: 0; /*het zit aan de onderkant van het scherm*/
 background-color: rgb(0, 0, 0);
 color: white;
 text-align: center;
