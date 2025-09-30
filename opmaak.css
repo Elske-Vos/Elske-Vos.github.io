@@ -108,7 +108,10 @@ img {
 
 .binary-bonanza {
   float: right;
-  width: 40%;
+  display: block;
+  background-color: ;
+  border: #ffffff; 
+  border: 5px;
 }
 
  /*Pagina ipos */
