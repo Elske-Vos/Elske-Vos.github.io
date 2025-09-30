@@ -107,7 +107,7 @@ img {
 }
 
 .binary-bonanza {
-  float: right;
+  float: center;
   display: block;
   background-color: black;
   color: #ffffff;
