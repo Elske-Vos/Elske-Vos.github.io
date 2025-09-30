@@ -170,7 +170,7 @@ img {
 }
 
 /*dit is voor de footer*/ 
-footer {
+.footer {
 position: fixed;
 background-color: black;
 border: 2px;
