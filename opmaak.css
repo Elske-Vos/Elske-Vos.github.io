@@ -179,6 +179,7 @@ footer {
 position: fixed;
 bottom: 0;
 background-color: rgb(255, 255, 255);
+color: white;
 text-align: center;
 border: #6c6c6c;
 width: 100%;
