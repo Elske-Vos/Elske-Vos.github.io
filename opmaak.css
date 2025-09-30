@@ -172,6 +172,7 @@ img {
 /*dit is voor de footer*/ 
 .footer {
 position: fixed;
+bottom: 0;
 background-color: black;
 border: 2px;
 text-align: center;
